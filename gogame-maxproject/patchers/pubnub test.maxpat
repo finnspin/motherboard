@@ -123,9 +123,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.0, 400.0, 139.0, 22.0 ],
+					"patching_rect" : [ 129.0, 400.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend publish frenchy"
+					"text" : "prepend publish motherboard"
 				}
 
 			}
