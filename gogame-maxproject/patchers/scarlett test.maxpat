@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 1,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 84.0, 129.0, 935.0, 638.0 ],
+		"rect" : [ 406.0, 539.0, 935.0, 638.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 26.0, 164.0, 24.0, 24.0 ],
+					"patching_rect" : [ 20.0, 165.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
