@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 666.0, 82.0, 950.0, 565.0 ],
+		"rect" : [ 666.0, 82.0, 909.0, 526.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -87,9 +87,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.0, 1060.0, 189.0, 33.0 ],
+					"patching_rect" : [ 362.0, 1060.0, 188.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.0, 8.0, 362.0, 20.0 ],
+					"presentation_rect" : [ 12.0, 8.0, 525.0, 20.0 ],
 					"style" : "redness",
 					"text" : "motherboard spatial audio scripter "
 				}
@@ -685,7 +685,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"items" : "<empty>",
+					"items" : [ "Select", "sound", "playback", "method", ",", 2, "channel", "stereo", ",", 8, "channel", "surround" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -794,6 +794,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 20.798828, 265.296875, 154.701172, 21.40625 ],
 					"style" : "redness",
+					"text" : "Press to Record",
 					"texton" : "Release to Save"
 				}
 
@@ -810,6 +811,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 184.298828, 265.296875, 154.701172, 21.40625 ],
 					"style" : "redness",
+					"text" : "Press to Play",
 					"texton" : "Release to Save"
 				}
 
@@ -896,6 +898,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 133.298828, 140.0, 90.701172, 21.40625 ],
 					"style" : "redness",
+					"text" : "Load Soundfile",
 					"texton" : "Release to Save"
 				}
 
