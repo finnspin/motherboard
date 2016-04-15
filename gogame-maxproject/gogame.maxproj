@@ -2,7 +2,7 @@
 	"name" : "gogame",
 	"version" : 1,
 	"creationdate" : -751652796,
-	"modificationdate" : -751580262,
+	"modificationdate" : -751402095,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -11,11 +11,6 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"pubnub test.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"scarlett test.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
