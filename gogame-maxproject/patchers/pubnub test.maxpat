@@ -9,7 +9,11 @@
 			"modernui" : 1
 		}
 ,
+<<<<<<< Updated upstream
 		"rect" : [ 595.0, 96.0, 481.0, 457.0 ],
+=======
+		"rect" : [ 595.0, 96.0, 924.0, 828.0 ],
+>>>>>>> Stashed changes
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,11 +46,17 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+<<<<<<< Updated upstream
 					"patching_rect" : [ 86.0, 80.0, 300.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 86.0, 80.0, 300.0, 20.0 ],
 					"style" : "redness",
 					"text" : "joshua goldberg 2016 for The Go Game"
+=======
+					"patching_rect" : [ 641.0, 658.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "print"
+>>>>>>> Stashed changes
 				}
 
 			}
@@ -198,6 +208,7 @@
 			}
 , 			{
 				"box" : 				{
+<<<<<<< Updated upstream
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -236,6 +247,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
+=======
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"linecount" : 5,
+>>>>>>> Stashed changes
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -395,6 +412,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -432,6 +450,9 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+=======
+					"destination" : [ "obj-3", 0 ],
+>>>>>>> Stashed changes
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
@@ -458,6 +479,7 @@
 			}
 , 			{
 				"patchline" : 				{
+<<<<<<< Updated upstream
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -485,6 +507,8 @@
 			}
 , 			{
 				"patchline" : 				{
+=======
+>>>>>>> Stashed changes
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
