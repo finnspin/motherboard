@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 101.0, 194.0, 1244.0, 878.0 ],
+		"rect" : [ 253.0, 451.0, 904.0, 675.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,35 @@
 		"style" : "redness",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 103.0, 509.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 103.0, 509.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "click for DSP settings"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 54.423828, 687.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 55.149414, 509.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "open"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"items" : [ "Select", "computer", "running", "surround", ",", "Motherboard", ",", "Finn", "Laptop" ],
@@ -443,7 +472,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 577.0, 568.0, 299.0, 169.0 ],
+						"rect" : [ 729.0, 825.0, 299.0, 169.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2442,7 +2471,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 793.0, 187.0, 123.0, 49.0 ],
 					"style" : "redness",
-					"text" : "0. 0. 0.247772 0.686343 0.476261 0.268488 0. 0."
+					"text" : "0. 0. 0. 0.131019 0.595475 0.862522 0.418666 0."
 				}
 
 			}
@@ -3192,6 +3221,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

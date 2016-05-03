@@ -1,9 +1,9 @@
 {
 	"name" : "gogame",
 	"version" : 1,
-	"creationdate" : 3543908403,
-	"modificationdate" : 3543910506,
-	"viewrect" : [ 26.0, 70.0, 300.0, 500.0 ],
+	"creationdate" : -751058893,
+	"modificationdate" : -749899738,
+	"viewrect" : [ 415.0, 127.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -21,12 +21,17 @@
 				"local" : 1
 			}
 ,
+			"gg.udpcontrol.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"scarlett test.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"gg.udpcontrol.maxpat" : 			{
+			"multichannel tester.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
