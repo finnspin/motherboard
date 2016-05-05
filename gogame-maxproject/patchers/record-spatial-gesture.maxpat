@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 2,
 			"revision" : 1,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 377.0, 158.0, 1226.0, 849.0 ],
+		"rect" : [ 377.0, 158.0, 866.0, 694.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "redness",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 246.0, 602.0, 34.0, 22.0 ],
+					"style" : "",
+					"text" : "r len"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "comment",
@@ -146,7 +159,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 1,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -468,7 +481,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 1,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -969,7 +982,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 1,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1808,7 +1821,7 @@
 							"major" : 7,
 							"minor" : 2,
 							"revision" : 1,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1840,6 +1853,18 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 169.5, 479.0, 36.0, 22.0 ],
+									"style" : "redness",
+									"text" : "s len"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "newobj",
@@ -1873,9 +1898,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 418.0, 452.0, 288.0, 35.0 ],
+									"patching_rect" : [ 418.0, 452.0, 288.0, 49.0 ],
 									"style" : "",
-									"text" : "\"Go Game Media:/Finn Air Backup/Music/LULU Music/Andrew Bird/Break It Yourself/03 Danse Carribe.mp3.txt\""
+									"text" : "\"Macintosh HD:/Users/josh/Music/iTunes/iTunes Music/Music/Chromatics/Kill For Love/03 Back from the Grave.mp3.txt\""
 								}
 
 							}
@@ -1888,21 +1913,21 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 380.0, 306.0, 288.0, 22.0 ],
 									"style" : "",
-									"text" : "\"03 Danse Carribe.mp3.txt\""
+									"text" : "\"03 Back from the Grave.mp3.txt\""
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"linecount" : 4,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 698.0, 222.0, 50.0, 116.0 ],
+									"patching_rect" : [ 698.0, 222.0, 50.0, 89.0 ],
 									"style" : "",
-									"text" : "\"03 Danse Carribe.mp3\""
+									"text" : "\"03 Back from the Grave.mp3\""
 								}
 
 							}
@@ -1921,14 +1946,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-15",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 345.0, 398.0, 264.0, 35.0 ],
+									"patching_rect" : [ 345.0, 398.0, 264.0, 62.0 ],
 									"style" : "redness",
-									"text" : "read \"Go Game Media:/Finn Air Backup/Music/LULU Music/Andrew Bird/Break It Yourself/03 Danse Carribe.mp3.txt\""
+									"text" : "read \"Macintosh HD:/Users/josh/Music/iTunes/iTunes Music/Music/Chromatics/Kill For Love/03 Back from the Grave.mp3.txt\""
 								}
 
 							}
@@ -1939,7 +1964,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 177.0, 416.0, 65.0, 22.0 ],
+									"patching_rect" : [ 90.0, 479.0, 65.0, 22.0 ],
 									"style" : "redness",
 									"text" : "value slen"
 								}
@@ -2105,9 +2130,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 50.0, 292.0, 83.0, 22.0 ],
+									"patching_rect" : [ 50.0, 292.0, 93.0, 22.0 ],
 									"style" : "redness",
-									"text" : "buffer~ space"
+									"text" : "buffer~ space 2"
 								}
 
 							}
@@ -2313,6 +2338,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2382,7 +2416,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.125, 598.0, 189.0, 22.0 ],
+					"patching_rect" : [ 30.125, 591.0, 189.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 123.0, 306.0, 216.0, 22.0 ],
 					"style" : "redness"
@@ -2525,18 +2559,19 @@
 			}
 , 			{
 				"box" : 				{
+					"dontreplace" : 1,
 					"id" : "obj-31",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.125, 133.0, 177.0, 89.0 ],
+					"patching_rect" : [ 321.125, 133.0, 177.0, 102.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 20.798828, 221.0, 331.0, 49.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 20.798828, 221.0, 331.0, 62.0 ],
 					"style" : "redness",
-					"text" : "seq~: could not get file Go Game Media:/Finn Air Backup/Music/LULU Music/Andrew Bird/Break It Yourself/03 Danse Carribe.mp3.txt"
+					"text" : "seq~: could not get file Macintosh HD:/Users/josh/Music/iTunes/iTunes Music/Music/Chromatics/Kill For Love/03 Back from the Grave.mp3.txt"
 				}
 
 			}
@@ -2814,11 +2849,11 @@
 					"id" : "obj-48",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 159.423828, 639.0, 81.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 159.423828, 639.0, 124.0, 22.0 ],
 					"style" : "redness",
-					"text" : "wave~ space"
+					"text" : "wave~ space 0 100 2"
 				}
 
 			}
@@ -2845,7 +2880,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 761.0, 379.631104, 304.0, 49.0 ],
 					"style" : "redness",
-					"text" : "\"Go Game Media:/Finn Air Backup/Music/LULU Music/Andrew Bird/Break It Yourself/03 Danse Carribe.mp3.txt\""
+					"text" : "\"Macintosh HD:/Users/josh/Music/iTunes/iTunes Music/Music/Chromatics/Kill For Love/03 Back from the Grave.mp3.txt\""
 				}
 
 			}
@@ -3268,6 +3303,15 @@
 					"destination" : [ "obj-70", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-48", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -3401,6 +3445,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3519,7 +3572,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gg.udpcontrol.maxpat",
-				"bootpath" : "~/Documents/motherboard/gogame-maxproject/patchers",
+				"bootpath" : "~/TheGoGame/motherboard/gogame-maxproject/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
