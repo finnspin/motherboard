@@ -2561,17 +2561,15 @@
 				"box" : 				{
 					"dontreplace" : 1,
 					"id" : "obj-31",
-					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.125, 133.0, 177.0, 102.0 ],
+					"patching_rect" : [ 321.125, 133.0, 177.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 20.798828, 221.0, 331.0, 62.0 ],
+					"presentation_rect" : [ 20.798828, 221.0, 331.0, 22.0 ],
 					"style" : "redness",
-					"text" : "seq~: could not get file Macintosh HD:/Users/josh/Music/iTunes/iTunes Music/Music/Chromatics/Kill For Love/03 Back from the Grave.mp3.txt"
+					"text" : "Watch this space"
 				}
 
 			}
@@ -2728,14 +2726,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-72",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 793.0, 187.0, 123.0, 49.0 ],
+					"patching_rect" : [ 793.0, 187.0, 123.0, 62.0 ],
 					"style" : "redness",
-					"text" : "0.388541 0.073706 0. 0. 0. 0. 0.333885 0.644462"
+					"text" : "0.411569 0.060454 0.212265 0.017782 0.212507 0.268487 0.154667 0."
 				}
 
 			}
@@ -2878,7 +2876,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 761.0, 379.631104, 304.0, 49.0 ],
+					"patching_rect" : [ 761.0, 379.631104, 306.0, 49.0 ],
 					"style" : "redness",
 					"text" : "\"Macintosh HD:/Users/josh/Music/iTunes/iTunes Music/Music/Chromatics/Kill For Love/03 Back from the Grave.mp3.txt\""
 				}
@@ -2913,8 +2911,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 381.0, 73.0, 427.0, 288.0 ],
 					"style" : "redness",
-					"xplace" : [ 0.2, 0.418333, 0.741667, 0.846667, 0.786667, 0.545, 0.295, 0.138173 ],
-					"yplace" : [ 0.225694, 0.128472, 0.190972, 0.489583, 0.815972, 0.892361, 0.847222, 0.361111 ]
+					"xplace" : [ 0.538642, 0.796253, 0.88993, 0.82904, 0.648712, 0.470726, 0.269321, 0.074941 ],
+					"yplace" : [ 0.208333, 0.135417, 0.444444, 0.864583, 0.864583, 0.864583, 0.854167, 0.857639 ]
 				}
 
 			}
